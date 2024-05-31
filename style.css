@@ -1,4 +1,162 @@
-html {
-  height: 100%;
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html, body {
+  font-family:cursive;
+  line-height: 2;
+}
+
+
+h2 {
+  font-size: 20px;  
+}
+
+h1 {
+  font-size: 30px;
+}
+
+header {
+  background: #564256;
+  color: #fff;
+  padding: 10px 0;
+  height: 10%;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.top-buttons {
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.top-buttons:hover {
+  background-color: #3f2e42;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  z-index: 1;
+  color: black;
+}
+
+.dropdown-content a {
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #e6c7ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#home {
+  color: #ffc8dd;
+}
+
+#projects {
+  color: #CDB4DB;
+}
+
+#career {
+  color: #bde0fe;
+}
+
+main {
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.section {
+  padding: 15px;
+  margin: 15px 10px;
+  width: 20%;
+  flex: 1;
+}
+
+#more-about {
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+}
+
+#experiences {
+  background: #ffc8dd;
+  color: #3f031a;
+}
+
+#skills {
+  background: #bde0fe;
+  color: #021b31;
+}
+
+#journey {
+  background: #CDB4DB;
+  color: #170024;
+}
+
+#about {
+  color: #4a4a4a;
+}
+
+footer {
+  background: #564256;
+  color: #c7bdc7;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 14px;
+}
+
+/* color palette:
+light purple: #CDB4DB
+light pink: #FFC8DD
+darker pink: #FFAFCC
+light blue: #BDE0FE
+darker blue: #A2D2FF
+darkerer purple: #564256 */
