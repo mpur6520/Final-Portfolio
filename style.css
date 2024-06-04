@@ -5,7 +5,7 @@
 }
 
 html, body {
-  font-family:cursive;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 2;
 }
 
@@ -81,7 +81,7 @@ nav ul li a {
 }
 
 .dropdown-content a:hover {
-  background-color: #e6c7ff;
+  background-color: #afa5c5;
 }
 
 .dropdown:hover .dropdown-content {
@@ -104,6 +104,7 @@ main {
   padding: 20px;
   width: 90%;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 section {
@@ -121,6 +122,7 @@ section {
   display: flex;
   text-align: justify;
   justify-content: space-between;
+  gap: 5px;
 }
 
 #experiences {
@@ -151,6 +153,7 @@ footer {
   width: 100%;
   bottom: 0;
   font-size: 14px;
+  margin-top: 50px;
 }
 
 /* color palette:
