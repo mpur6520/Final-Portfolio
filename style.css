@@ -96,7 +96,7 @@ nav ul li a {
   color: #CDB4DB;
 }
 
-#career {
+#reflection {
   color: #bde0fe;
 }
 
@@ -104,7 +104,7 @@ main {
   padding: 20px;
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
 }
 
 section {
@@ -125,17 +125,17 @@ section {
   gap: 5px;
 }
 
-#experiences {
+#pink {
   background: #ffc8dd;
   color: #3f031a;
 }
 
-#skills {
+#blue {
   background: #bde0fe;
   color: #021b31;
 }
 
-#journey {
+#purple {
   background: #CDB4DB;
   color: #170024;
 }
@@ -154,6 +154,53 @@ footer {
   bottom: 0;
   font-size: 14px;
   margin-top: 50px;
+}
+
+.grid {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.grid-cards{
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cards div{
+  background-color: #c1b5d4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.grid-cards div:hover{
+  background-color: #61506d;
+  color: white;
+}
+
+a{
+  color: #0d0c0e;
+  text-decoration: none;
+}
+
+.reflection-content div{
+  padding: 10px 10px;
+  margin: 20px 20px;
+  background-color: gray;
+}
+
+.project-reflection aside{
+  width: 35%;
+  max-width: 2000px;
+  float: right;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+iframe {
+  float: left;
+  margin: 10px 10px;
+  margin-bottom: 100px;
 }
 
 /* color palette:
