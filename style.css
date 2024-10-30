@@ -178,6 +178,24 @@ footer {
   color: white;
 }
 
+.grid-cards-home{
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cards-home div{
+  background-color: #c1b5d4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.grid-cards-home div:hover{
+  background-color: #61506d;
+  color: white;
+}
+
+
 a{
   color: #0d0c0e;
   text-decoration: none;
@@ -201,6 +219,16 @@ iframe {
   float: left;
   margin: 10px 10px;
   margin-bottom: 100px;
+}
+
+#links{
+  padding: 20px;
+  background-color: #564256;
+  color: white;
+}
+
+.a_links{
+  color:white;
 }
 
 /* color palette:
