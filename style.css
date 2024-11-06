@@ -245,3 +245,8 @@ darkerer purple: #564256 */
   text-decoration: underline;
   color: #a503fc;
 }
+
+.reflection-content a{
+  text-decoration: underline;
+  color: #a503fc;
+}
