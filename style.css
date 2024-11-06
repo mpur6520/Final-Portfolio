@@ -240,3 +240,8 @@ darker pink: #FFAFCC
 light blue: #BDE0FE
 darker blue: #A2D2FF
 darkerer purple: #564256 */
+
+#more-about a{
+  text-decoration: underline;
+  color: #a503fc;
+}
