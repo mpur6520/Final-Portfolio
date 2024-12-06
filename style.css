@@ -125,17 +125,17 @@ section {
   gap: 5px;
 }
 
-#pink {
+.pink {
   background: #ffc8dd;
   color: #3f031a;
 }
 
-#blue {
+.blue {
   background: #bde0fe;
   color: #021b31;
 }
 
-#purple {
+.purple {
   background: #CDB4DB;
   color: #170024;
 }
