@@ -227,6 +227,7 @@ iframe {
   padding: 20px;
   background-color: #564256;
   color: white;
+  align-items: center;
 }
 
 .a_links{
