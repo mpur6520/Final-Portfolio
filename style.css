@@ -227,6 +227,9 @@ iframe {
   background-color: #564256;
   color: white;
   align-items: center;
+}
+
+#links p{
   text-align: center;
 }
 
