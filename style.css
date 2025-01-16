@@ -11,7 +11,7 @@ html, body {
 
 
 h2 {
-  font-size: 30px;  
+  font-size: 20px;  
 }
 
 h1 {
@@ -125,17 +125,17 @@ section {
   gap: 5px;
 }
 
-.pink {
+#pink {
   background: #ffc8dd;
   color: #3f031a;
 }
 
-.blue {
+#blue {
   background: #bde0fe;
   color: #021b31;
 }
 
-.purple {
+#purple {
   background: #CDB4DB;
   color: #170024;
 }
@@ -162,6 +162,7 @@ footer {
 }
 
 .grid-cards{
+  margin-top: 20px;
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(3, 1fr);
@@ -204,6 +205,7 @@ a{
 .reflection-content div{
   padding: 10px 10px;
   margin: 20px 20px;
+  background-color: gray;
 }
 
 .project-reflection aside{
@@ -226,11 +228,6 @@ iframe {
   padding: 20px;
   background-color: #564256;
   color: white;
-  align-items: center;
-}
-
-#links p{
-  text-align: center;
 }
 
 .a_links{
@@ -253,4 +250,21 @@ darkerer purple: #564256 */
 .reflection-content a{
   text-decoration: underline;
   color: #a503fc;
+}
+
+button{
+  background-color: #c1b5d4;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 33%;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #0d0c0e;
+}
+
+.year-buttons{
+  padding: 20px;
+  background-color: #564256;
+  color: white;
 }
