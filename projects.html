@@ -23,17 +23,25 @@
         <section id="about">
             <br>
             <h1>PROJECTS PAGE</h1>
-            <p>This page consists of the projects I've done during the year. To see them, please click on the cards they're displayed on respectively.</p>
+            <p>This page consists of the projects done during the year. Click the buttons below to explore the projects from each academic year.</p>
         </section>
 
         <br>
 
-        <section id="grid">
+        <!-- Navigation Buttons for Year Selection -->
+        <div class="year-buttons">
+            <button onclick="showProjects('sophomore')">SOPHOMORE YEAR</button>
+            <button onclick="showProjects('junior')">JUNIOR YEAR</button>
+            <button onclick="showProjects('senior')">SENIOR YEAR</button>
+        </div>
+
+        <!-- Junior Year Projects -->
+        <section id="junior" class="project-section" style="display: none;">
             <div class="grid-cards">
                 <a href="animation.html">
                     <div>
-                        <h3>ANIMATION PROJECT</h3>    
-                        <p>Using Python and the knowledge of loops, an animation was made by creating different shapes and moving them at different speeds along the x and y axes. The final product was meant to tell a story, having a motif and a thematic message.</p>
+                      <h3>ANIMATION PROJECT</h3>
+                    <p>Using Python and the knowledge of loops, an animation was made by creating different shapes and moving them at different speeds along the x and y axes. The final product was meant to tell a story, having a motif and a thematic message.</p>
                     </div>
                 </a>
                 <a href="avatar.html">
@@ -78,18 +86,24 @@
                         <p>Tackling a social issue of students' choice, create an idea for an app that can be utilized to lessen or solve the social issue. The final product should be a coherent app, finished with a presentation, showcasing it and its potential.</p>
                     </div>
                 </a>
-                <a href="congApp.html">
-                    <div>
-                        <h3>CONGRESSIONAL APP CHALLENGE</h3>
-                        <p>In an app creation competition, students will create an application of their choice to solve an issue they witness within their lives. They will then create a video depicting their app's purpose, target audience, and functionality.</p>
-                    </div>
-                </a>
+            </div>
+        </section>
+
+        <!-- Sophomore Year Projects -->
+        <section id="sophomore" class="project-section" style="display: none;">
+            <div class="grid-cards">
                 <a href="ghostschool.html">
                     <div>
                         <h3>GHOST SCHOOL WEBSITE</h3>
                         <p>After completing introduction to programming and psuedocode Ghost School, participate in the SIA Final Project and create a website where students are able to portray it. They will gain a better understanding of code in general.</p>
                     </div>
                 </a>
+            </div>
+        </section>
+
+        <!-- Senior Year Projects -->
+        <section id="senior" class="project-section" style="display: none;">
+            <div class="grid-cards">
                 <a href="adoptWeb.html">
                     <div>
                         <h3>LOVED PETS WEBSITE</h3>
@@ -108,12 +122,30 @@
                         <p>Learning new tool and programming language jQuery, students will combine new efforts with old information to create a website the user can interact with as a quiz, having their choices impact the outcome they receive.</p>
                     </div>
                 </a>
+                <a href="congApp.html">
+                    <div>
+                        <h3>CONGRESSIONAL APP CHALLENGE</h3>
+                        <p>In an app creation competition, students will create an application of their choice to solve an issue they witness within their lives. They will then create a video depicting their app's purpose, target audience, and functionality.</p>
+                    </div>
+                </a>
             </div>
         </section>
+
     </main>
 
     <footer>
-        <p> EMAIL: apuran263@gmail.com  &nbsp; &nbsp; || &nbsp; &nbsp; PHONE: +1-929-405-6531 &nbsp; || &nbsp; LOCATION: Queens, NY</p>
+        <p>EMAIL: apuran263@gmail.com &nbsp; || &nbsp; PHONE: +1-929-405-6531 &nbsp; || &nbsp; LOCATION: Queens, NY</p>
     </footer>
+
+    <script>
+        function showProjects(year) {
+            // Hide all project sections first
+            const sections = document.querySelectorAll('.project-section');
+            sections.forEach(section => section.style.display = 'none');
+
+            // Show the section corresponding to the clicked button
+            document.getElementById(year).style.display = 'block';
+        }
+    </script>
 </body>
 </html>
