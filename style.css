@@ -231,6 +231,10 @@ iframe {
   text-align: center;
 }
 
+#links h2{
+  text-align: left;
+}
+
 .a_links{
   color:white;
 }
